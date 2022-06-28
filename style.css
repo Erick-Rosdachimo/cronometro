@@ -1,0 +1,67 @@
+html{
+  height: 100vh;
+  background-image: -webkit-linear-gradient(45deg, rgb(3, 3, 59), rgb(121, 118, 214), rgb(3, 3, 59));
+}
+
+main{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.timer{
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+button{
+  border: none;
+  width: 6rem;
+  text-align: center;
+  padding: 0.7rem;
+  color: rgb(18, 0, 47);
+}
+
+button:hover{
+  color: rgb(0, 0, 0);
+}
+
+.start{
+  background-color: rgb(56, 179, 87);
+}
+
+.start:hover{
+  background-color: rgb(111, 230, 103);
+}
+
+.pause{
+  background-color: rgb(218, 214, 15);
+}
+
+.pause:hover{
+  background-color: rgb(255, 248, 41);
+}
+
+.clear{
+  background-color: rgb(183, 41, 41);
+}
+
+.clear:hover{
+  background-color: rgb(234, 36, 36);
+}
+
+@media(max-width: 500px){
+  *{
+    font-size: 11px;
+  }
+}
+
+
+@media(max-width: 300px){
+  *{
+    font-size: 9px;
+  }
+}
